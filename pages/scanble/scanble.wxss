@@ -1,0 +1,22 @@
+#box{
+  margin: 0 2%;
+}
+.btn{
+  width: 45%;
+  display: inline-block;
+}
+.fr{
+  float: right;
+}
+.ss {
+   background-color: blue;
+   height: 1rpx;
+   width: 100%;
+}
+
+.item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+     height: 130rpx;
+     width: 100%;
+}

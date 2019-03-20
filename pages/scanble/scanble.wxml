@@ -1,0 +1,15 @@
+<view id='box'>
+  <button class='btn' type="primary" disabled="{{dis}}" loading="{{loading}}" bindtap="openBle"> 打开蓝牙 </button>
+  <button class='btn fr' type="primary" disabled="{{dis}}" loading="{{loading}}" bindtap="searchBle"> 搜索蓝牙 </button>
+   <button class='btn' type="primary" disabled="{{dis}}" loading="{{loading}}" bindtap="topenBle"> 10s后搜索蓝牙 </button>
+  <view>{{logs}}</view>
+  <view>设备列表</view>
+  <!-- 设备列表 -->
+  <view wx:for="{{list}}" wx:for-item="item" data-title="{{item}}" data-name="{{item.name}}" data-advertisData="{{item.advertisServiceUUIDs}}" wx:key="{{item}}" bindtap="bindViewTap">
+    <view class="item">
+      {{item}}
+    </view>
+  </view>
+</view>
+
+

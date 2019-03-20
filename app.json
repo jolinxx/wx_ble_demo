@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/scanble/scanble",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/conn/conn"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
